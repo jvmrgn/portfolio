@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+header {
+    height: 6.8em;
+    background-color: #2026A2;
+}
+
+.nome {
+  font-family: 'Dancing Script', cursive;
+  color: #f1f1f1;
+  font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900%;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.1em;
+    padding: 1.5em; 
+  }
+  
+  a {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  .container {
+    display: flex;
+  }
+
+.imagens {
+  width: 300px;
+}
+
+.githublogo {
+  width: 50px;
+}
+
+.linkedinlogo {
+  width: 50px;
+}
+
+.whatsapplogo {
+  width: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .nome {
+    display: none;
+  }
+
+  .imagens {
+    width: 330px;
+  }
+
+}
