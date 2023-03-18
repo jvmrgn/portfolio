@@ -14,7 +14,7 @@ class Projetos extends React.Component {
                 <p>Aqui você encontra algum dos meus Freelances (Não todos pois não posso divulga-los)</p>
 
                 <div>
-                    <a href={"https://clinicanossolar.netlify.app/contato.html"} target={"_blank"}><img src={nossoLarLogo} className={style.imagemProjetos}></img></a>
+                    <a href={"https://clinicanossolar.netlify.app"} target={"_blank"}><img src={nossoLarLogo} className={style.imagemProjetos}></img></a>
                     <p>Website desenvolvido para a clínica de idosos Nosso Lar (Clique na logo para ser redirecionado)</p>
                 </div>
 
